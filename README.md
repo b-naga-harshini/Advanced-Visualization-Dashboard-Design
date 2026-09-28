@@ -63,6 +63,126 @@ Week5-Interactive-Supply-Chain-Dashboard/
 
 ## How to Run the Dashboard
 
+STEP 1 — Create one new folder
+
+Go to:
+
+Desktop → Right click → New → Folder
+
+Name it:
+
+Week5_Interactive_Dashboard
+
+STEP 2 — Put your cleaned dataset in the folder
+
+Find your cleaned dataset file:
+
+supply_chain_data.csv
+
+Copy it.
+
+Paste it inside:
+
+Desktop
+└── Week5_Interactive_Dashboard
+    └── supply_chain_data.csv
+
+STEP 3 — Create app.py
+1.Open Notepad.
+2.wrie the code.
+3.Notepad lo File → Save As click cheyyandi.
+4.Location select cheyyandi:
+Desktop → Week5_Interactive_Dashboard
+5.File name:
+app.py
+6.Save as type: All Files (*.*)
+7.Encoding: UTF-8
+8.Click Save.
+
+VERY IMPORTANT:
+
+Week5_Interactive_Dashboard
+│
+├── app.py
+└── supply_chain_data.csv
+
+
+STEP 4 — Create requirements.txt
+
+This file tells Python which packages your dashboard needs.
+
+1. Open Notepad
+
+Create a new Notepad file.
+
+2. Paste exactly this:
+streamlit
+pandas
+plotly
+3. Save it
+
+Go to:
+
+File → Save As
+
+Select:
+
+Desktop → Week5_Interactive_Dashboard
+
+File name:
+
+requirements.txt
+
+Save as type:
+
+All Files (*.*)
+
+Encoding:
+
+UTF-8
+
+Click Save.
+
+4. Check your folder
+
+It should now look exactly like this:
+
+Week5_Interactive_Dashboard
+│
+├── app.py
+├── requirements.txt
+└── supply_chain_data.csv
+
+STEP 5 — Open CMD in the correct folder
+
+1. Type:
+cmd
+
+Then press Enter.
+
+A CMD window will open.
+
+2. Check the CMD path
+
+It should end with:
+
+cd C:\Users\VSS\Desktop\Week5_Interactive_Dashboard>
+
+3. Check the files
+
+4.In CMD type:
+
+dir
+
+Press Enter.
+
+You should see:
+
+app.py
+requirements.txt
+supply_chain_data.csv
+
+
 Install the required Python packages:
 
 ```bash
